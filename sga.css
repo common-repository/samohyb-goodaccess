@@ -1,0 +1,80 @@
+div.sga-container {
+    display: flex;
+}
+
+.side {
+    background-color: white;
+    padding: 20px;
+    border: 2px solid #efefef;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+p.state {
+    font-size: 200%;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+p.state.enabled {
+    color: #05A789;
+}
+
+p.state.disabled {
+    color: #FE4F00;
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.w-20 {
+    width: 20%;
+}
+
+.modal-content {
+    margin-bottom: 0;
+}
+
+.block {
+    display: block;
+}
+
+input {
+    margin-top: 5px;
+}
+
+.side h2 {
+    margin-top: 0;
+    padding-bottom: 15px;
+    font-weight: bold;
+    font-size: 120%;
+    border-bottom: 2px solid #efefef;
+}
+
+.side.left {
+    width: 70%;
+    margin-right: 5px;
+}
+
+.side.right {
+    width: 30%;
+    margin-left: 5px;
+}
+
+.banner {
+    width: 150px;
+    height: 150px;
+    border: 0;
+    margin: 20px;
+}
